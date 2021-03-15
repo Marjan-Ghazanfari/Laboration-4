@@ -1,0 +1,49 @@
+
+/* baraye tekrare masalan ye khate amoodi tuye zamine safhe */
+/* body{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url('');
+  background-repeat: repeat;
+} */
+
+
+
+/* .btn-outline-success {
+    color: #c4dbd1;
+    border-color: #167247;
+  }
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: #167247;
+    border-color: #167247;
+  } */ 
+
+.bg-info {
+    background-color: #d0dcdf !important;
+}
+
+.carousel-item,
+.carousel-item img {
+  height: calc(100vh - 56px);
+  object-fit: cover;
+  object-position: center;
+}
+
+img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.jumbotron {
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  height: 60vh;
+  background-image: url('/image/bootstrap1.png');
+  filter:brightness(60%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: var(--bs-cyan); */
+  color: var(--bs-white);
+  border-radius: .3rem;
+}
