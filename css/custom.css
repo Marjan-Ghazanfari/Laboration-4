@@ -40,10 +40,11 @@ img {
   margin-bottom: 2rem;
   height: 60vh;
   background-image: url('/image/bootstrap1.png');
-  filter:brightness(60%);
+  filter:brightness(80%);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-color: var(--bs-cyan); */
   color: var(--bs-white);
   border-radius: .3rem;
 }
+
